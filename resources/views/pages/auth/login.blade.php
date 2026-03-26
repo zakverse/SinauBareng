@@ -1,3 +1,4 @@
+
 <x-layout.app title="Login">
     <div class="min-h-screen bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center p-4">
         

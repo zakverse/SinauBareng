@@ -1,3 +1,4 @@
+@props(['title'])
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -10,8 +11,10 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body {{ $attributes->merge(['class' => 'font-sans antialiased bg-gray-50']) }}>
+<body class="font-sans antialiased bg-gray-50">
+    
     {{ $slot }}
+
     @stack('scripts')
 </body>
 </html>

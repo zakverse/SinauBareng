@@ -1,3 +1,4 @@
+
 <x-layout.app title="Daftar Akun">
     <div class="min-h-screen bg-[#6155f5] flex items-center justify-center p-6">
 

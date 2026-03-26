@@ -33,7 +33,10 @@ Route::get('/register',[AuthController::class,'registerForm'])->name('register')
 
 Route::post('/login',[AuthController::class,'login']);
 Route::post('/register',[AuthController::class,'register']);
-Route::post('/logout',[AuthController::class,'logout'])->middleware('auth');
+
+Route::post('/logout', [AuthController::class, 'logout'])
+->name('logout')
+->middleware('auth');
 
 
 Route::get('/materi', function () {
@@ -56,3 +59,7 @@ Route::get('/reset-password/{token}', [ResetPasswordController::class, 'showRese
 
 Route::post('/reset-password', [ResetPasswordController::class, 'reset'])
     ->name('password.update');
+
+Route::get('/generate', function () {
+    return view('pages.user.generate'); 
+});
