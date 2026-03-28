@@ -13,7 +13,9 @@
 </head>
 <body class="font-sans antialiased bg-gray-50">
     
-    {{ $slot }}
+    {{ $slot ?? '' }}
+
+    @yield('content')
 
     @stack('scripts')
 </body>

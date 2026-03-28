@@ -63,3 +63,15 @@ Route::post('/reset-password', [ResetPasswordController::class, 'reset'])
 Route::get('/generate', function () {
     return view('pages.user.generate'); 
 });
+
+Route::get('materi/cari', function() { 
+    return view('pages.user.materi.index');
+});
+
+Route::get('materi/unggah', function() { 
+    return view('pages.user.materi.create'); 
+    });
+
+Route::get('materi/saya', function() {
+    return view('pages.user.materi.mine'); 
+    });
