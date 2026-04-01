@@ -32,17 +32,17 @@
 
                 <div class="bg-white p-10 rounded-[40px] shadow-sm text-center">
                     <p class="text-2xl font-bold text-black mb-2">Total Soal</p>
-                    <p class="text-4xl font-bold text-green-500">120</p>
+                    <p class="text-4xl font-bold text-green-500">Belum di coding</p>
                 </div>
 
                 <div class="bg-white p-10 rounded-[40px] shadow-sm text-center">
                     <p class="text-2xl font-bold text-black mb-2">Penilaian</p>
-                    <p class="text-4xl font-bold text-yellow-500">1</p>
+                    <p class="text-4xl font-bold text-yellow-500">Belum di coding</p>
                 </div>
 
                 <div class="bg-white p-10 rounded-[40px] shadow-sm text-center">
                     <p class="text-2xl font-bold text-black mb-2">Laporan Saya</p>
-                    <p class="text-4xl font-bold text-red-500">2</p>
+                    <p class="text-4xl font-bold text-red-500">Belum di coding</p>
                 </div>
             </div>
         </main>
